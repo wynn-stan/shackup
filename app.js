@@ -9,7 +9,7 @@ app.use('/public', express.static("./src/public"));
 app.use("/dev", express.static("./src/dev-dependencies"));
 
 app.get("/", (req,res) => {
-    res.redirect("/public/index.html");
+    res.redirect("/public/home.html");
     res.end();
 });
 

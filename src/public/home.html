@@ -20,8 +20,12 @@
        }
 
        .profile-image img {
-           width: 100%;
+           max-width: 100%;
            height: auto;
+           max-height: 200px;
+       }
+       footer {
+        background-color: #212529;
        }
    </style>
    
@@ -30,10 +34,10 @@
     <header>
         <div class="navbar navbar-dark bg-dark shadow-sm">
             <div class="container">
-                <a href="#" class="navbar-brand d-flex align-items-center">
+                <a href="/public/societies.html" class="navbar-brand d-flex align-items-center">
                     <strong>Societies</strong>
                 </a>
-                <a href="#" class="navbar-brand d-flex align-items-center">
+                <a href="/public/events.html" class="navbar-brand d-flex align-items-center">
                     <strong>Events</strong>
                 </a>
             </div>
@@ -48,7 +52,7 @@
                 <p class="lead text-muted">Be informed on the various events, clubs and societies within the KNUST campus</p>
                 <p>
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-outline-success my-2" data-toggle="modal" data-target="#exampleModal">
+                    <button type="button" class="btn btn-outline-success my-2" data-toggle="modal" data-target="#newsletter_modal">
                         Be updated
                     </button>
                 </p>
@@ -60,7 +64,7 @@
     <section>
     
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="newsletter_modal" tabindex="-1" role="dialog" aria-labelledby="newsletter_modal_label" aria-hidden="true">
         <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -91,6 +95,31 @@
 
     </section> 
     
+   <!-- Footer 0a4275-->
+   <footer class="text-center text-white ">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0 mt-5">
+      <!-- Section: CTA -->
+      <section class="">
+        <p class="d-flex justify-content-center align-items-center">
+          <span class="me-3">Don't Miss New Updates And Info</span>
+          <button type="button" class="mx-2 btn btn-outline-success" data-toggle="modal" data-target="#newsletter_modal">
+            Be Updated
+          </button>
+        </p>
+      </section>
+      <!-- Section: CTA -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="#">ShackUp</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

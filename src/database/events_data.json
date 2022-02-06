@@ -1,5 +1,54 @@
 {
-    "gdsc_challenge":{
+    "ubi_amore":{
+        "profile_container_props":{
+            "image_container_props":{
+                "image_props":{
+                    "attributes":{
+                        "src":"/public/img/ubi-amor.jpg",
+                        "alt":"event-image",
+                        "className":"img-thumbnail"
+                    }
+                }
+            },
+            "profile_description_container_props":{
+                "profile_header_props":{
+                    "text":"UBI AMOR"
+                },
+                "tags_props":[
+                    "scisca", "cinema", "relationships","theater"
+                ],
+                "profile_description_text_props":{
+                    "texts_props":[
+                        "Movie Premiere | Counselling | Speed Date | Stage Performance"
+                    ]},
+                "join_button_props":{
+                    "element_type":"button",
+                    "attributes":{
+                        "className":"btn btn-success px-5",
+                        "type":"button",
+                        "data-toggle":"collapse",
+                        "data-target":"#join-cybergirls",
+                        "aria-expanded":"false",
+                        "aria-controls":"join-cybergirls"
+                    },
+                    "button_text":"Join"
+                },
+                "card_collapse_container_props":{
+                    "element_type":"div",
+                    "attributes":{
+                        "id":"join-cybergirls"
+                    },
+                    "card_body_props":{
+                        "element_type":"div",
+                        "attributes":{
+                            "className":"card card-body "
+                        },
+                        "texts_props":["Date: 14th Feb, 2022","Time: 4:30pm", "Venue: Allotey Auditorium"]
+                    }
+                }
+            }
+        }
+},"gdsc_challenge":{
         "profile_container_props":{
             "image_container_props":{
                 "image_props":{
@@ -57,7 +106,7 @@
             "image_container_props":{
                 "image_props":{
                     "attributes":{
-                        "src":"/public/img/cybergirls.jpeg",
+                        "src":"/public/img/cybergirls-1.jpg",
                         "alt":"event-image",
                         "className":"img-thumbnail"
                     }

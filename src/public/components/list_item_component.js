@@ -103,7 +103,7 @@ function section_container(props){
 export default function profile_container(props){
     this.element_type = "div";
     this.attributes = {
-        className:"profile container row py-4"
+        className:"profile container row py-4 mb-1"
     };
     this.image_container = new image_container(props.image_container_props);
     this.profile_description_container = new profile_description_container(props.profile_description_container_props);
@@ -257,7 +257,7 @@ function card_body(props){
                 className:"m-0"
             }, text);
             generated_text.push(text_element);
-            
+
         }
     });
 
