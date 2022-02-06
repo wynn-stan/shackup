@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const data = require('./src/database/data');
+require('dotenv').config();
 
 app.use('/data', data.router);
 
@@ -12,6 +13,6 @@ app.get("/", (req,res) => {
     res.end();
 });
 
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
     console.log('Listening on Port 3000')
 })
