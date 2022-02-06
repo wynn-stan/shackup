@@ -48,4 +48,53 @@
                     }
                 }
             }
-}}
+}, "enactus":{
+    "profile_container_props":{
+        "image_container_props":{
+            "image_props":{
+                "attributes":{
+                    "src":"/public/img/enactus-knust.jpeg",
+                    "alt":"club_image",
+                    "className":"img-thumbnail"
+                }
+            }
+        },
+        "profile_description_container_props":{
+            "profile_header_props":{
+                "text":"Enactus KNUST"
+            },
+            "tags_props":[
+                "Business", "Entrepreneurship"
+            ],
+            "profile_description_text_props":{
+                "texts_props":["Are you passionate about impact and would love to join a community of students?","This is the opportunity to join Enactus-KNUST. At Enactus-KNUST we prepare you to win for your stay in KNUST and beyond"]
+            },
+            "join_button_props":{
+                "element_type":"button",
+                "attributes":{
+                    "className":"btn btn-success px-5",
+                    "type":"button",
+                    "data-toggle":"collapse",
+                    "data-target":"#join-enactus",
+                    "aria-expanded":"false",
+                    "aria-controls":"join-enactus"
+                },
+                "button_text":"Join"
+            },
+            "card_collapse_container_props":{
+                "element_type":"div",
+                "attributes":{
+                    "id":"join-enactus"
+                },
+                "card_body_props":{
+                    "element_type":"div",
+                    "attributes":{
+                        "className":"card card-body "
+                    },
+                    "texts_props":["Register using the link: https://3ABND4b"]
+                }
+            }
+        }
+    }
+}
+}

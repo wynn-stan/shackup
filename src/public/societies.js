@@ -27,5 +27,5 @@ for(let profile in societies_data){
 
 ReactDOM.render(
     generated_societies,
-    document.getElementById('list')
+    document.getElementById('societies-list')
 )

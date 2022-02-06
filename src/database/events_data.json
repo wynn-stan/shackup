@@ -1,1 +1,51 @@
-{}
+{
+    "cybergirls 2.0":{
+        "profile_container_props":{
+            "image_container_props":{
+                "image_props":{
+                    "attributes":{
+                        "src":"/public/img/cybergirls.jpeg",
+                        "alt":"event-image",
+                        "className":"img-thumbnail"
+                    }
+                }
+            },
+            "profile_description_container_props":{
+                "profile_header_props":{
+                    "text":"CyberGirls 2.0"
+                },
+                "tags_props":[
+                    "cyber-security", "women"
+                ],
+                "profile_description_text_props":{
+                    "texts_props":["Are you a female between the ages of 18 and 28?","Are you interested in developing skills in the field of cybersecurity?","Applications are open to girls and women living in Nigeria, Ghana, Rwanda, Egypt, Zambia and South Africa"]
+                },
+                "join_button_props":{
+                    "element_type":"button",
+                    "attributes":{
+                        "className":"btn btn-success px-5",
+                        "type":"button",
+                        "data-toggle":"collapse",
+                        "data-target":"#join-cybergirls",
+                        "aria-expanded":"false",
+                        "aria-controls":"join-cybergirls"
+                    },
+                    "button_text":"Join"
+                },
+                "card_collapse_container_props":{
+                    "element_type":"div",
+                    "attributes":{
+                        "id":"join-cybergirls"
+                    },
+                    "card_body_props":{
+                        "element_type":"div",
+                        "attributes":{
+                            "className":"card card-body "
+                        },
+                        "texts_props":["Register using the link: https://bit.ly/CyberGirls2022SignUp"]
+                    }
+                }
+            }
+        }
+}
+}
