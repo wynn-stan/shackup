@@ -1,2 +1,4 @@
 *.jpg
 /node_modules
+tmp.txt
+*.http

@@ -83,7 +83,8 @@
  * 
  */
 
-import React from '/dev/react.developmen.js';
+/*
+    If this comment is currently visible, and the project has already been deployed, DELETE
 
 function section_container(props){
     this.element_type = props.element_type;
@@ -95,11 +96,15 @@ function section_container(props){
         this.attributes,
         this.profile_containers
     )
-}
+} */
 
-export function profile_container(props){
-    this.element_type = props.element_type;
-    this.attributes = props.attributes;
+// export component to be used by other scripts
+
+export default function profile_container(props){
+    this.element_type = "div";
+    this.attributes = {
+        className:"profile container row py-4"
+    };
     this.image_container = new image_container(props.image_container_props);
     this.profile_description_container = new profile_description_container(props.profile_description_container_props);
 
@@ -112,8 +117,10 @@ export function profile_container(props){
 }
 
 function image_container(props){
-    this.element_type = props.element_type;
-    this.attributes = props.attributes;
+    this.element_type = "div";
+    this.attributes = {
+        className:"profile-image col-3"
+    };
     this.image = new image(props.image_props);
 
     return React.createElement(
@@ -124,7 +131,7 @@ function image_container(props){
 };
 
 function image(props){
-    this.element_type = props.element_type;
+    this.element_type = "img";
     this.attributes = props.attributes;
 
     return React.createElement(
@@ -136,8 +143,10 @@ function image(props){
 }
 
 function profile_description_container(props){
-    this.element_type = props.element_type;
-    this.attributes = props.attributes;
+    this.element_type = "div";
+    this.attributes = {
+        className:"col-8"
+    };
     this.profile_header = new profile_header(props.profile_header_props);
     this.tags = new tags(props.tags_props);
     this.profile_description_text = new profile_description_text(props.profile_description_text_props);
@@ -156,8 +165,8 @@ function profile_description_container(props){
 }
 
 function profile_header(props){
-    this.element_type = props.element_type;
-    this.attributes = props.attributes;
+    this.element_type = "h3";
+    this.attributes = {};
     this.text = props.text;
 
     return React.createElement(
@@ -172,30 +181,38 @@ function tags(tag_list){
     let generated_tags = [];
 
     tag_list.forEach(tag_text => {
-        let tag = React.createElement("span", {
-            "className":"badge badge-primary"
+        let tag_element = React.createElement("span", {
+            "className":"badge badge-primary p-1 mr-1"
         }, tag_text);
 
-        generated_tags.push(tag);
+        generated_tags.push(tag_element);
     });
 
     return generated_tags;
 }
 
 function profile_description_text(props){
-    this.element_type = props.element_type;
-    this.attributes = props.attributes;
-    this.text = props.text;
 
-    return React.createElement(
-        this.element_type,
-        this.attributes,
-        this.text
-    );
+    let generated_texts = [];
+
+    props.texts_props.forEach(text => {
+        let text_element = React.createElement(
+            "p",
+            {
+                className:"mt-2"
+            },
+            text
+        );
+
+        generated_texts.push(text_element);
+
+    });
+
+    return generated_texts;
 }
 
 function join_button(props){
-    this.element_type = props.element_type;
+    this.element_type = "button";
     this.attributes = props.attributes;
     this.button_text = props.button_text;
 
@@ -207,8 +224,9 @@ function join_button(props){
 }
 
 function card_collapse_container(props){
-    this.element_type = props.element_type;
+    this.element_type = "div";
     this.attributes = props.attributes;
+    this.attributes.className = "collapse mt-2";
     this.card_body = new card_body(props.card_body_props);
 
     return React.createElement(
@@ -219,14 +237,21 @@ function card_collapse_container(props){
 }
 
 function card_body(props){
-    this.element_type = props.element_type;
-    this.attributes = props.attributes;
-    this.text = props.text;
+
+    let generated_text = [];
+
+    props.texts_props.forEach(text => {
+        let text_element = React.createElement("p", {
+            className:"m-0"
+        }, text);
+        generated_text.push(text_element);
+    });
 
     return React.createElement(
-        this.element_type,
-        this.attributes,
-        this.text
-    )
+        "div",
+        {
+            className:"card card-body"
+        },
+        generated_text
+    );
 }
-

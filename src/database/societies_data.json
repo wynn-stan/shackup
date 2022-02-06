@@ -1,0 +1,51 @@
+{
+    "kds_society_profile":{
+            "profile_container_props":{
+                "image_container_props":{
+                    "image_props":{
+                        "attributes":{
+                            "src":"/public/img/knust_debate_society.jpg",
+                            "alt":"club_image",
+                            "className":"img-thumbnail"
+                        }
+                    }
+                },
+                "profile_description_container_props":{
+                    "profile_header_props":{
+                        "text":"KNUST Debate Society"
+                    },
+                    "tags_props":[
+                        "Debate", "Public Speaking"
+                    ],
+                    "profile_description_text_props":{
+                        "texts_props":["In just 9 years of existence, the KDS has won the Pan-African Universities Debate Championship 3 times and the Ghana National Universities Debating Championship 4 times. This feat comes as a result of months of commitment and excellence to.",
+                                "In joining the society you will be exposed to outer learning experiences, gain insight on world issues, build your confidence and public speaking skills and learn to accentuate and voice your opinions."]
+                    },
+                    "join_button_props":{
+                        "element_type":"button",
+                        "attributes":{
+                            "className":"btn btn-success px-5",
+                            "type":"button",
+                            "data-toggle":"collapse",
+                            "data-target":"#join-kds",
+                            "aria-expanded":"false",
+                            "aria-controls":"join-kds"
+                        },
+                        "button_text":"Join"
+                    },
+                    "card_collapse_container_props":{
+                        "element_type":"div",
+                        "attributes":{
+                            "id":"join-kds"
+                        },
+                        "card_body_props":{
+                            "element_type":"div",
+                            "attributes":{
+                                "className":"card card-body "
+                            },
+                            "texts_props":["Register using the link: https://bit.ly/3nPwK0B"]
+                        }
+                    }
+                }
+            }
+}}
