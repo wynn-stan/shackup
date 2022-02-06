@@ -4,7 +4,7 @@
                 "image_container_props":{
                     "image_props":{
                         "attributes":{
-                            "src":"/public/img/knust_debate_society.jpg",
+                            "src":"/public/img/knust_debate_society.jpeg",
                             "alt":"club_image",
                             "className":"img-thumbnail"
                         }
