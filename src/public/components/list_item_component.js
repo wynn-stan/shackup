@@ -241,10 +241,24 @@ function card_body(props){
     let generated_text = [];
 
     props.texts_props.forEach(text => {
-        let text_element = React.createElement("p", {
-            className:"m-0"
-        }, text);
-        generated_text.push(text_element);
+
+        if(text == "<br>"){
+           let line_break = React.createElement(
+                "br",
+                {},
+                null
+            )
+
+            generated_text.push(line_break);
+
+        }else{
+
+            let text_element = React.createElement("p", {
+                className:"m-0"
+            }, text);
+            generated_text.push(text_element);
+            
+        }
     });
 
     return React.createElement(
