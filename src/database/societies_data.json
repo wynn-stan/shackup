@@ -1,5 +1,52 @@
 {
-    "kds_society_profile":{
+    "gdsc":{
+        "profile_container_props":{
+            "image_container_props":{
+                "image_props":{
+                    "attributes":{
+                        "src":"/public/img/gdsc_logo.jpeg",
+                        "alt":"club_image",
+                        "className":"img-thumbnail"
+                    }
+                }
+            },
+            "profile_description_container_props":{
+                "profile_header_props":{
+                    "text":"Google Developer Student Club"
+                },
+                "tags_props":[
+                    "Technology", "Google", "Engineering"
+                ],
+                "profile_description_text_props":{
+                    "texts_props":["Developer Student Clubs (DSC) is a Google Developers program for university students to learn mobile and web development skills , design thinking skills and leadership skills", "It is open to any student, ranging from novice developers who are just starting to advanced developers who want to further improve their skills. it also encourages them to make use of the acquired skill sets to solve local business problems around their institution. It is designed to help them build job-ready skills, making them further employable in the future. "]},
+                "join_button_props":{
+                    "element_type":"button",
+                    "attributes":{
+                        "className":"btn btn-success px-5",
+                        "type":"button",
+                        "data-toggle":"collapse",
+                        "data-target":"#join-gdsc",
+                        "aria-expanded":"false",
+                        "aria-controls":"join-gdsc"
+                    },
+                    "button_text":"Join"
+                },
+                "card_collapse_container_props":{
+                    "element_type":"div",
+                    "attributes":{
+                        "id":"join-gdsc"
+                    },
+                    "card_body_props":{
+                        "element_type":"div",
+                        "attributes":{
+                            "className":"card card-body "
+                        },
+                        "texts_props":["Register using the link: https://docs.google.com/forms/d/e/1FAIpQLScUr2rZ2vpGDOfz6moR4I3Y3NTJ5ncTyJL6utuK7rE-KRf6Kw/viewform?usp=sf_link"]
+                    }
+                }
+            }
+        }
+    },"kds_society_profile":{
             "profile_container_props":{
                 "image_container_props":{
                     "image_props":{
