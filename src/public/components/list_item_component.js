@@ -251,7 +251,18 @@ function card_body(props){
 
             generated_text.push(line_break);
 
-        }else{
+        }else if(text.slice(0,3) == "<a>"){
+            let link = text.slice(3, text.length);
+            let link_element = React.createElement(
+                "a",
+                {
+                    href:`${link}`
+                },
+                `${link}`
+            );
+            generated_text.push(link_element);
+        }
+        else{
 
             let text_element = React.createElement("p", {
                 className:"m-0"

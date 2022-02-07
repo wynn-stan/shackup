@@ -41,7 +41,7 @@
                         "attributes":{
                             "className":"card card-body "
                         },
-                        "texts_props":["Register using the link: https://docs.google.com/forms/d/e/1FAIpQLScUr2rZ2vpGDOfz6moR4I3Y3NTJ5ncTyJL6utuK7rE-KRf6Kw/viewform?usp=sf_link"]
+                        "texts_props":["Register using the link: ","<a>https://docs.google.com/forms/d/e/1FAIpQLScUr2rZ2vpGDOfz6moR4I3Y3NTJ5ncTyJL6utuK7rE-KRf6Kw/viewform?usp=sf_link"]
                     }
                 }
             }
@@ -90,7 +90,7 @@
                             "attributes":{
                                 "className":"card card-body "
                             },
-                            "texts_props":["Register using the link: https://bit.ly/3nPwK0B"]
+                            "texts_props":["Register using the link: ","<a>https://bit.ly/3nPwK0B"]
                         }
                     }
                 }
@@ -138,7 +138,7 @@
                     "attributes":{
                         "className":"card card-body "
                     },
-                    "texts_props":["Register using the link: https://3ABND4b"]
+                    "texts_props":["Register using the link: ","<a>https://bit.ly/3ABND4b"]
                 }
             }
         }
