@@ -1,5 +1,56 @@
 {
-    "ubi_amore":{
+    "food_festival":{
+        "profile_container_props":{
+            "image_container_props":{
+                "image_props":{
+                    "attributes":{
+                        "src":"/public/img/knust_food_festival.jpg",
+                        "alt":"event-image",
+                        "className":"img-thumbnail"
+                    }
+                }
+            },
+            "profile_description_container_props":{
+                "profile_header_props":{
+                    "text":"KNUST Food Festival 2022"
+                },
+                "tags_props":[
+                    "culture", "food", "health"
+                ],
+                "profile_description_text_props":{
+                    "texts_props":["KNUST Food Festival 2022 Calls For Participation.",
+                        "Theme: Achieveing the SDG's: Our Food, Our Culture, Our Health",
+                        "Activities: Cultural Performances, health checks, and exhibitions of all kinds of food products for free tasting and purchase"]},
+                "join_button_props":{
+                    "element_type":"button",
+                    "attributes":{
+                        "className":"btn btn-success px-5",
+                        "type":"button",
+                        "data-toggle":"collapse",
+                        "data-target":"#join-food_festival",
+                        "aria-expanded":"false",
+                        "aria-controls":"join-food_festival"
+                    },
+                    "button_text":"Join"
+                },
+                "card_collapse_container_props":{
+                    "element_type":"div",
+                    "attributes":{
+                        "id":"join-food_festival"
+                    },
+                    "card_body_props":{
+                        "element_type":"div",
+                        "attributes":{
+                            "className":"card card-body "
+                        },
+                        "texts_props":["All are cordially invited","<br>","Date: 14th Feb, 2022","Time: 4:30pm", "Venue: Allotey Auditorium","<br>",
+                            "For participation or sponsorship, please contact the Organizing Committee on: 020 815 8541, 0208954223, 0207010712, 0555498000.",
+                        "Email: knustfoodfestival@gmail.com"]
+                    }
+                }
+            }
+        }
+}, "ubi_amore":{
         "profile_container_props":{
             "image_container_props":{
                 "image_props":{

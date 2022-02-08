@@ -1,5 +1,60 @@
 {
-    "gdsc":{
+    "knust_volleyball":{
+        "profile_container_props":{
+            "image_container_props":{
+                "image_props":{
+                    "attributes":{
+                        "src":"/public/img/volleyball.jpg",
+                        "alt":"club_image",
+                        "className":"img-thumbnail"
+                    }
+                }
+            },
+            "profile_description_container_props":{
+                "profile_header_props":{
+                    "text":"KNUST Volleyball"
+                },
+                "tags_props":[
+                    "Sports", "Volleyball"
+                ],
+                "profile_description_text_props":{
+                    "texts_props":[
+                        "KNUST Volleyball Team"
+                    ]},
+                "join_button_props":{
+                    "element_type":"button",
+                    "attributes":{
+                        "className":"btn btn-success px-5",
+                        "type":"button",
+                        "data-toggle":"collapse",
+                        "data-target":"#join-volleyball",
+                        "aria-expanded":"false",
+                        "aria-controls":"join-volleyball"
+                    },
+                    "button_text":"Join"
+                },
+                "card_collapse_container_props":{
+                    "element_type":"div",
+                    "attributes":{
+                        "id":"join-volleyball"
+                    },
+                    "card_body_props":{
+                        "element_type":"div",
+                        "attributes":{
+                            "className":"card card-body "
+                        },
+                        "texts_props":[
+                            "Training Sessions",
+                            "  Monday - Friday: 3:30pm",
+                            "  Saturdays: 6:30am",
+                            "<br>",
+                            "For more info, Contact 0200097072"
+                        ]
+                    }
+                }
+            }
+        }
+    },"gdsc":{
         "profile_container_props":{
             "image_container_props":{
                 "image_props":{
